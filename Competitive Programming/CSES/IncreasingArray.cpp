@@ -5,7 +5,7 @@ typedef int64_t tt;
 typedef unsigned long long ll;
 using namespace std;
 /*
-Further Notice
+Further Notice uwu
 */
 int main()
 {
