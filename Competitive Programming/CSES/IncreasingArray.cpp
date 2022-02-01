@@ -5,7 +5,9 @@ typedef int64_t tt;
 typedef unsigned long long ll;
 using namespace std;
 /*
-Further Notice uwu
+since the i'th number needs to be atleast equal or greater than the i-1'th number, we can simply
+check for the i'th if its lesser, then find the difference, x = i-1th - 1th. Adding to our answer,
+this method require only at worse O(n).
 */
 int main()
 {
