@@ -97,7 +97,7 @@ int solve(){
         if(n&1)
             ans = (ans * a) % MOD;
         a = (a * a) % MOD;
-        x >>= 1;
+        n >>= 1;
     }
     return ans;
 }
