@@ -11,10 +11,9 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 /*
 We utilize the technique in Exponentiation I, but a little twist
-according to Fermat's Little Theorem, $a^{p - 1} \equiv 1 \pmod{p}$
-, so we can calculate 
-$a^{b^c \pmod{1e9 + 7 - 1}} \pmod{1e9+7}$
- with modular exponentiation.
+according to Fermat's Little Theorem, a^(p-1) is congruent to 1 (mod p)
+thus we can solve for a^b^c as a^(b^c (mod 1e9+7-1)) (mod 1e9+7)
+Time Complexity O(log P)
 */
 
 int fastExpo(int a, int n, int MOD){
