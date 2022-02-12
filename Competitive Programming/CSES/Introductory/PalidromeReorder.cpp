@@ -18,7 +18,7 @@ int main()
     cin >> in;
     map <int,int> letters;
 
-    for(int i = 0; i < in.size(); i++){
+    for(int i = 0; i < (int)in.size(); i++){
         letters[in[i] - 'A']++;
     }
     int keep;
@@ -49,7 +49,7 @@ int main()
             }
         }
 
-    } else if (in.size() % 2 != 0){
+    } else if ((int)in.size() % 2 != 0){
         if(odd > 1) cout << "NO SOLUTION";
         else {
                 for(int i = 0; i < 26; i++){
