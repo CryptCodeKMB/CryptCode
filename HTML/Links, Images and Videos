@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            CC Links, Images and Videos
+        </title>
+    </head>
+
+    <body>
+        <h1> <!--a tag defines hyperlink-->
+             <!--
+                 _blank - open new tab
+                 _self - same tab
+                
+                -->
+            <a href="https://www.google.com" target="_blank"> Google's Homepage </a> </h1>
+            
+<br>
+            <!--basic link-->
+            <a href="https://www.youtube.com">
+            Youtube </a> 
+<br>
+            <!--picture link from internet--> <!--width and height to resize--> 
+            <img  width="100" height="100" src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d"
+            alt="cat picture">
+               
+<br>
+            <!--picture link from local-->   
+            <img width="100" src="blackcat.jpg" alt="black cat picture">       
+<br>
+            <!--clickable image-->
+            <a href= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fa34774573%2Fgirl-cat-names%2F&psig=AOvVaw0fcVP-v76hxU2d_Lsyr0o4&ust=1646623579058000&source=images&cd=vfe&ved=0CA0Q3YkBahcKEwjw0PL_xLD2AhUAAAAAHQAAAAAQIA">
+                    <img width="100" height="100" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-girl-cat-names-1606245046.jpg?crop=0.668xw:1.00xh;0.126xw,0&resize=640:*" alt="cat picture" > 
+                </a>
+<br>
+
+            <!--video from local-->
+            <video width="300" src="kittenvideo.mp4" controls alt="kitten video"> </video>
+           
+<br>
+            <!--video from YouTube--> <!--select video in youtube / share / embedded / copy link / paste in VSC-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ByH9LuSILxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        
+        </body>        
+
+</html>
